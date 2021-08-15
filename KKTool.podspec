@@ -8,26 +8,19 @@ Pod::Spec.new do |spec|
 
 
   spec.description  = <<-DESC
-
-开发中的工具类                 
-
-  DESC
+                       开发中的工具类
+                      DESC
 
   spec.homepage     = "https://github.com/kakao6/KKTool.git"
 
  spec.license      = "MIT"
 
-spec.author             = { "weyueyong" => "1416029891@qq.com" }
+ spec.author             = { "weyueyong" => "1416029891@qq.com" }
 
  spec.source       = { :git => "https://github.com/kakao6/KKTool.git", :tag => "#{spec.version}" }
 
  spec.source_files  =  "KKTool/*"
 
- spec.subspec 'Category' do |ss|
-
-​    ss.source_files =  "KKTool/Category/NSArray+log.{h,m}"
-
-end
-
+ 
 end
 

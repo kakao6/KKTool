@@ -16,7 +16,7 @@
 		B10BA74926C906C2005B8A37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B10BA74826C906C2005B8A37 /* main.m */; };
 		B10BA75326C906C2005B8A37 /* KKToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B10BA75226C906C2005B8A37 /* KKToolTests.m */; };
 		B10BA75E26C906C2005B8A37 /* KKToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B10BA75D26C906C2005B8A37 /* KKToolUITests.m */; };
-		B10BA77226C9071A005B8A37 /* NSArray+log.m in Sources */ = {isa = PBXBuildFile; fileRef = B10BA77126C9071A005B8A37 /* NSArray+log.m */; };
+		B1D4E90F26C924E000467163 /* NSArray+log.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D4E90E26C924E000467163 /* NSArray+log.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,8 +55,8 @@
 		B10BA75926C906C2005B8A37 /* KKToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KKToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B10BA75D26C906C2005B8A37 /* KKToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKToolUITests.m; sourceTree = "<group>"; };
 		B10BA75F26C906C2005B8A37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B10BA77026C9071A005B8A37 /* NSArray+log.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+log.h"; sourceTree = "<group>"; };
-		B10BA77126C9071A005B8A37 /* NSArray+log.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+log.m"; sourceTree = "<group>"; };
+		B1D4E90D26C924E000467163 /* NSArray+log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+log.h"; sourceTree = "<group>"; };
+		B1D4E90E26C924E000467163 /* NSArray+log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+log.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +107,8 @@
 		B10BA73526C906C1005B8A37 /* KKTool */ = {
 			isa = PBXGroup;
 			children = (
-				B10BA76E26C906EF005B8A37 /* Category */,
+				B1D4E90D26C924E000467163 /* NSArray+log.h */,
+				B1D4E90E26C924E000467163 /* NSArray+log.m */,
 				B10BA73626C906C1005B8A37 /* AppDelegate.h */,
 				B10BA73726C906C1005B8A37 /* AppDelegate.m */,
 				B10BA73926C906C1005B8A37 /* SceneDelegate.h */,
@@ -139,15 +140,6 @@
 				B10BA75F26C906C2005B8A37 /* Info.plist */,
 			);
 			path = KKToolUITests;
-			sourceTree = "<group>";
-		};
-		B10BA76E26C906EF005B8A37 /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				B10BA77026C9071A005B8A37 /* NSArray+log.h */,
-				B10BA77126C9071A005B8A37 /* NSArray+log.m */,
-			);
-			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,7 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B10BA73E26C906C1005B8A37 /* ViewController.m in Sources */,
-				B10BA77226C9071A005B8A37 /* NSArray+log.m in Sources */,
+				B1D4E90F26C924E000467163 /* NSArray+log.m in Sources */,
 				B10BA73826C906C1005B8A37 /* AppDelegate.m in Sources */,
 				B10BA74926C906C2005B8A37 /* main.m in Sources */,
 				B10BA73B26C906C1005B8A37 /* SceneDelegate.m in Sources */,
