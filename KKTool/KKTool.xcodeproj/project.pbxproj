@@ -107,7 +107,6 @@
 		B10BA73526C906C1005B8A37 /* KKTool */ = {
 			isa = PBXGroup;
 			children = (
-				B10BA76F26C90709005B8A37 /* View */,
 				B10BA76E26C906EF005B8A37 /* Category */,
 				B10BA73626C906C1005B8A37 /* AppDelegate.h */,
 				B10BA73726C906C1005B8A37 /* AppDelegate.m */,
@@ -149,13 +148,6 @@
 				B10BA77126C9071A005B8A37 /* NSArray+log.m */,
 			);
 			path = Category;
-			sourceTree = "<group>";
-		};
-		B10BA76F26C90709005B8A37 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
