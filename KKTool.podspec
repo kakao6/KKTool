@@ -11,13 +11,14 @@ Pod::Spec.new do |spec|
                        开发中的工具类
                       DESC
 
-  spec.homepage     = "https://github.com/kakao6/KKTool"
+  spec.homepage     = "https://github.com/kakao6/KKTool.git"
 
   spec.author             = { "weyueyong" => "1416029891@qq.com" }
 
  spec.source       = { :git => "https://github.com/kakao6/KKTool.git", :tag => "#{spec.version}" }
 spec.license= { :type => "MIT", :file => "LICENSE" }
- spec.source_files  =  "KKTool/*"
+spec.frameworks = 'UIKit','Foundation'
+spec.source_files  =  "KKTool/*"
 
  
 end
