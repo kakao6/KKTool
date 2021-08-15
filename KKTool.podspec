@@ -19,7 +19,7 @@ Pod::Spec.new do |spec|
 
  spec.source       = { :git => "https://github.com/kakao6/KKTool.git", :tag => "#{spec.version}" }
 
- spec.source_files  =  "KKTool/*"
+ spec.source_files  =  "KKTool/*.{h,m}"
 
  
 end
