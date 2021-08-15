@@ -21,6 +21,6 @@ spec.author             = { "weyueyong" => "1416029891@qq.com" }
 
  spec.source       = { :git => "https://github.com/kakao6/KKTool.git", :tag => "#{spec.version}" }
 
- spec.source_files  =  "KKTool/Category/**/.{h,m}"
+ spec.source_files  =  "KKTool/**/ *"
 end
 
