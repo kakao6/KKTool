@@ -17,8 +17,6 @@ Pod::Spec.new do |spec|
 
  spec.license      = "MIT"
 
- spec.platform = iOS
-
 spec.author             = { "weyueyong" => "1416029891@qq.com" }
 
  spec.source       = { :git => "https://github.com/kakao6/KKTool.git", :tag => "#{spec.version}" }
