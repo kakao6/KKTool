@@ -19,10 +19,6 @@ Pod::Spec.new do |spec|
 
  spec.platform = iOS
 
-```
-spec.ios.deployment_target = "8.0"
-```
-
 spec.author             = { "weyueyong" => "1416029891@qq.com" }
 
  spec.source       = { :git => "https://github.com/kakao6/KKTool.git", :tag => "#{spec.version}" }
