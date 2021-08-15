@@ -3,7 +3,7 @@
 Pod::Spec.new do |spec|
 
    spec.name         = "KKTool"
-  spec.version      = "0.0.1"
+  spec.version      = "0.1.0"
   spec.summary      = "KK工具"
 
   #   
@@ -23,13 +23,11 @@ spec.author             = { "weyueyong" => "1416029891@qq.com" }
 
  spec.source_files  =  "KKTool/*"
 
- spec.subspec "Category" do |SS|
+ spec.subspec 'Category' do |ss|
 
-​    SS.source_files =  "KKTool/Category/*.{h,m}"
+​    ss.source_files =  "KKTool/Category/NSArray+log.{h,m}"
 
 end
-
-
 
 end
 
