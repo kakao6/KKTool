@@ -9,7 +9,9 @@ Pod::Spec.new do |spec|
   #   
   spec.description  = <<-DESC
 
-开发中的工具类                   DESC
+开发中的工具类                 
+
+  DESC
 
   spec.homepage     = "https://github.com/kakao6/KKTool.git"
 
