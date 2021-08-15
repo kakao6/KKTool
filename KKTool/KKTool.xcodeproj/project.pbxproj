@@ -10,9 +10,6 @@
 		B10BA73826C906C1005B8A37 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B10BA73726C906C1005B8A37 /* AppDelegate.m */; };
 		B10BA73B26C906C1005B8A37 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B10BA73A26C906C1005B8A37 /* SceneDelegate.m */; };
 		B10BA73E26C906C1005B8A37 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B10BA73D26C906C1005B8A37 /* ViewController.m */; };
-		B10BA74126C906C1005B8A37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B10BA73F26C906C1005B8A37 /* Main.storyboard */; };
-		B10BA74326C906C2005B8A37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B10BA74226C906C2005B8A37 /* Assets.xcassets */; };
-		B10BA74626C906C2005B8A37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B10BA74426C906C2005B8A37 /* LaunchScreen.storyboard */; };
 		B10BA74926C906C2005B8A37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B10BA74826C906C2005B8A37 /* main.m */; };
 		B10BA75326C906C2005B8A37 /* KKToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B10BA75226C906C2005B8A37 /* KKToolTests.m */; };
 		B10BA75E26C906C2005B8A37 /* KKToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B10BA75D26C906C2005B8A37 /* KKToolUITests.m */; };
@@ -44,10 +41,6 @@
 		B10BA73A26C906C1005B8A37 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		B10BA73C26C906C1005B8A37 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B10BA73D26C906C1005B8A37 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B10BA74026C906C1005B8A37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B10BA74226C906C2005B8A37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B10BA74526C906C2005B8A37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B10BA74726C906C2005B8A37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B10BA74826C906C2005B8A37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B10BA74E26C906C2005B8A37 /* KKToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KKToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B10BA75226C906C2005B8A37 /* KKToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKToolTests.m; sourceTree = "<group>"; };
@@ -115,10 +108,6 @@
 				B10BA73A26C906C1005B8A37 /* SceneDelegate.m */,
 				B10BA73C26C906C1005B8A37 /* ViewController.h */,
 				B10BA73D26C906C1005B8A37 /* ViewController.m */,
-				B10BA73F26C906C1005B8A37 /* Main.storyboard */,
-				B10BA74226C906C2005B8A37 /* Assets.xcassets */,
-				B10BA74426C906C2005B8A37 /* LaunchScreen.storyboard */,
-				B10BA74726C906C2005B8A37 /* Info.plist */,
 				B10BA74826C906C2005B8A37 /* main.m */,
 			);
 			path = KKTool;
@@ -244,9 +233,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B10BA74626C906C2005B8A37 /* LaunchScreen.storyboard in Resources */,
-				B10BA74326C906C2005B8A37 /* Assets.xcassets in Resources */,
-				B10BA74126C906C1005B8A37 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,25 +295,6 @@
 			targetProxy = B10BA75A26C906C2005B8A37 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		B10BA73F26C906C1005B8A37 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B10BA74026C906C1005B8A37 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B10BA74426C906C2005B8A37 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B10BA74526C906C2005B8A37 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B10BA76026C906C2005B8A37 /* Debug */ = {
